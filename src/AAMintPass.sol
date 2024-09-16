@@ -46,7 +46,7 @@ contract AAMintPass is ERC721, ERC721Burnable {
     {
         delegatedAddress = _delegatedAddress;
         founderAddress = _founderAddress;
-        isAdmin[founderAddress] = true;
+        isAdmin[founderAddres] = true;
     }
 
     /// @dev This function gives the founder the ability to transfer ownership to another address
